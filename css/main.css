@@ -1,0 +1,426 @@
+@-moz-viewport { width: device-with; scale: 1; }
+
+@-ms-viewport { width: device-with; scale: 1; }
+
+@-o-viewport { width: device-with; scale: 1; }
+
+@-webkit-viewport { width: device-with; scale: 1; }
+
+@viewport { width: device-with; scale: 1; }
+
+html {
+  font: normal 100%/1.3 Ubuntu, sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  color: black;
+  padding: .5rem 0;
+  background-color: gray;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-family: Lobster, cursive;
+  font-style: italic;
+  margin: 0 0 .5rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Joti One", cursive;
+  font-size: 2em;
+}
+
+.navigation ul {
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  text-align: left;
+}
+
+.navigation a {
+  white-space: nowrap;
+  display: block;
+  padding: .5em .75em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #fff;
+  background-color: gray;
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.images img {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.images img:nth-child(1) {
+  width: 100%;
+}
+
+.images img:nth-child(2) {
+  display: none;
+}
+
+.images img:nth-child(3) {
+  display: none;
+}
+
+.images img:nth-child(4) {
+  display: none;
+}
+
+.images img:nth-child(5) {
+  display: none;
+}
+
+.images img:nth-child(6) {
+  display: none;
+}
+
+.images img:nth-child(7) {
+  display: none;
+}
+
+.images img:nth-child(8) {
+  display: none;
+}
+
+.images img:nth-child(9) {
+  display: none;
+}
+
+.images img:nth-child(10) {
+  display: none;
+}
+
+.figure1 {
+  margin: 0;
+}
+
+.img-flex {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.card-body {
+  background-color: #e2e2e2;
+  padding: .2rem 1rem;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.cards dl {
+  margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: inline-block;
+  width: 10em;
+  font-style: italic;
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.contact {
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  height: 5em;
+  background-color: gray;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .navigation li {
+    padding: 0 .9rem;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .figure1 {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  html {
+    line-height: 1.3;
+    font-size: 110%;
+  }
+
+  .images img {
+    float: left;
+    text-align: center;
+    display: block;
+    width: 50%;
+  }
+
+  .images img:nth-child(1) {
+    width: 100%;
+  }
+
+  .images img:nth-child(2) {
+    display: block;
+  }
+
+  .images img:nth-child(3) {
+    display: block;
+  }
+
+  .images img:nth-child(4) {
+    display: none;
+  }
+
+  .images img:nth-child(5) {
+    display: none;
+  }
+
+  .images img:nth-child(6) {
+    display: none;
+  }
+
+  .images img:nth-child(7) {
+    display: none;
+  }
+
+  .images img:nth-child(8) {
+    display: none;
+  }
+
+  .images img:nth-child(9) {
+    display: none;
+  }
+
+  .images img:nth-child(10) {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .navigation li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .figure1 {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .card-body {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 14rem;
+    margin-left: 13rem;
+    margin-right: .5rem;
+    border-radius: 0 6px 6px;
+  }
+
+  html {
+    line-height: 1.4;
+    font-size: 110%;
+  }
+
+  .images img {
+    float: left;
+    text-align: center;
+  }
+
+  .images img:nth-child(1) {
+    width: 100%;
+  }
+
+  .images img:nth-child(2) {
+    width: 50%;
+    display: block;
+  }
+
+  .images img:nth-child(3) {
+    width: 50%;
+    display: block;
+  }
+
+  .images img:nth-child(4) {
+    width: 33.33%;
+    display: block;
+  }
+
+  .images img:nth-child(5) {
+    width: 33.33%;
+    display: block;
+  }
+
+  .images img:nth-child(6) {
+    width: 33.33%;
+    display: block;
+  }
+
+  .images img:nth-child(7) {
+    display: none;
+  }
+
+  .images img:nth-child(8) {
+    display: none;
+  }
+
+  .images img:nth-child(9) {
+    display: none;
+  }
+
+  .images img:nth-child(10) {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  .navigation li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .figure1 {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .card-body {
+    top: 23rem;
+    right: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    margin-left: 16rem;
+    border-radius: 0 6px 6px;
+  }
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  .navigation li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .figure1 {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .card-body {
+    top: 39rem;
+    right: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    margin-left: 16rem;
+    border-radius: 0 6px 6px;
+  }
+
+  html {
+    line-height: 1.6;
+    font-size: 130%;
+  }
+
+}
